@@ -1,0 +1,23 @@
+img {
+	position: relative;
+	cursor: pointer;
+}
+
+body {
+	/*background-image: url('../images/grass.jpg');*/
+}
+
+p {
+	width: 0;
+	height: 0;
+	opacity: 0;
+	overflow: hidden;
+	display: inline;
+}
+
+#ready, #go {
+	position: absolute;
+	left: 550px;
+	bottom: 350px;
+	opacity: 0;
+}
